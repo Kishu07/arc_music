@@ -78,7 +78,7 @@ async def initiate_bot():
         await asyncio.sleep(2.4)
         await startup_delete_last(_____)
     console.print(
-        "[bold green]Congrats!! Yukki Music Bot has started successfully!\n"
+        "[bold green]Congrats!! Arc Music Bot has started successfully!\n"
     )
     try:
         await app.send_message(
@@ -108,7 +108,7 @@ async def initiate_bot():
         console.print(f"\n[red]Stopping Bot")
         return
     try:
-        await userbot.join_chat("OfficialYukki")
+        await userbot.join_chat("the_arc_music")
     except:
         pass
     console.print(f"\n┌[red] Bot Started as {BOT_NAME}!")
